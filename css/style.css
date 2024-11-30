@@ -1,0 +1,63 @@
+body {
+    height: 100vh;
+    background-color: #24353E;
+
+}
+
+/* =============== */
+
+
+.lock {
+    background-color: #24353f;
+    box-shadow: 0 0 10px 5px #292828 !important;
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    color: #17A2B8;
+}
+
+.btn {
+    background-color: #24353f !important;
+    color: #4ea8c4 !important;
+}
+
+.btn:hover {
+    background-color: #4ea8c4 !important;
+    color: white !important;
+}
+
+
+.form-control:focus {
+    color: #130265 !important;
+    outline: 0;
+    box-shadow: none;
+}
+
+/* =================== */
+
+
+#lightBoxContainer {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#lightBox {
+
+    width: 550px;
+    background-color: rgb(248, 245, 245);
+    font-size: 22px;
+
+}
+
+/* ========================= */
+/* home page */
+.name {
+    height: 70vh;
+}
